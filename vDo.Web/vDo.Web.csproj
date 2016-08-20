@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\admin\appuser\appuser.html" />
+    <Content Include="app\admin\appuser\appuserCtrl.js" />
     <Content Include="app\app.js" />
     <Content Include="app\dashboard\dashboard - Copy.html" />
     <Content Include="app\dashboard\dashboard.html" />
@@ -70,6 +71,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="includes\css\animate.css" />
     <Content Include="includes\css\bootstrap.min.css" />
+    <Content Include="includes\css\buttons.dataTables.min.css" />
+    <Content Include="includes\css\jquery.dataTables.min.css" />
     <Content Include="includes\css\jquery.toast.css" />
     <Content Include="includes\css\megna.css" />
     <Content Include="includes\css\morris.css" />

@@ -10,43 +10,17 @@ app.config(['$urlRouterProvider', '$stateProvider', function ($urlRouterProvider
 
     // default route
     $urlRouterProvider.otherwise('/');
-
     $stateProvider
         .state('dashboard', {
             url: '/',
             templateUrl: 'app/dashboard/dashboard.html',
             controller: 'dashboardCtrl'
         })
-        .state('home', {
-            url: '/',
-            templateUrl: 'app/home/home.html',
-            controller: 'homeCtrl'
-        })
-        .state('about', {
-            url: '/about',
-            templateUrl: 'app/about/about.html',
-            controller: 'aboutCtrl'
-        })
-        .state('contact', {
-            url: '/contact',
-            templateUrl: 'app/contact/contact.html',
-            controller: 'contactCtrl'
-        })
-        .state('customer', {
-            url: '/customer',
-            templateUrl: 'app/customer/customer.html',
-            controller: 'customerCtrl'
-        })
-        .state('customer.detail', {
-            url: '^/customer/detail/{customerId:[0-9]{1,5}}',
-            templateUrl: 'app/customer/customerdetail.html',
-            controller: 'customerCtrl'
-        })
-        .state('customer.detail.contact', {
-            url: '^/customer/detail/contact/{customerId:[0-9]{1,5}}',
-            templateUrl: 'app/customer/contact.html',
-            controller: 'customerContactCtrl'
-        })
+    .state('appuser', {
+        url: '/appuser',
+        templateUrl: 'app/admin/appuser/appuser.html',
+        controller: 'appuserCtrl'
+    })
 }]);
 
 app.directive('loading', ['$http', function ($http) {

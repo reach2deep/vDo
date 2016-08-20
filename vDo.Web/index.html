@@ -16,7 +16,10 @@
     <!-- Custom CSS -->
     <link href="includes/css/style.css" rel="stylesheet" />
     <!-- color CSS -->
-    <link href="includes/css/megna.css" rel="stylesheet" />
+    <link href="includes/css/megna.css" rel="stylesheet"/>
+
+    <link href="includes/css/buttons.dataTables.min.css" rel="stylesheet" />
+    <link href="includes/css/jquery.dataTables.min.css" rel="stylesheet" />
 
 </head>
 <body ng-app="MyApp">
@@ -312,13 +315,8 @@
                         <!-- /input-group -->
                     </li>
                     <li class="active">
-                        <a href="#" class="waves-effect active"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i><span class="hide-menu">Dashboard <span class="fa arrow"></span></span></a>
-                        <!-- <ul class="nav nav-second-level collapse in">-->
-                        <!-- <li><a href="#" class="active">Minimalistic</a> </li>-->
-                        <!-- <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/index2.html">Demographical</a> </li>-->
-                        <!-- <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/index3.html">Analitical</a> </li>-->
-                        <!-- <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/index4.html">Simpler</a> </li>-->
-                        <!-- </ul>-->
+                        <a ui-sref="dashboard" class="waves-effect active"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i><span class="hide-menu">Dashboard <span class="fa arrow"></span></span></a>
+                       
                     </li>
                     <li>
                         <a href="#"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i><span class="hide-menu">Academic<span class="fa arrow"></span></span></a>
@@ -367,17 +365,17 @@
                         </ul>
                     </li>
 
-                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/login.html" class="waves-effect"><i data-icon="" class="linea-icon linea-aerrow fa-fw"></i><span class="hide-menu">Log out</span></a></li>
+                    <li><a ui-sref="appuser" class="waves-effect"><i data-icon="" class="linea-icon linea-aerrow fa-fw"></i><span class="hide-menu">Log out</span></a></li>
                 </ul>
             </div>
         </div>
         <!-- Left navbar-header end -->
 
         <div id="page-wrapper" style="min-height: 212px;">
-            <div class="container-fluid">
+           
                 <div ui-view> </div>
-            </div>
-            <!-- /.container-fluid -->
+            
+            
             <footer class="footer text-center"> 2016 ©  </footer>
         </div>
 
@@ -413,8 +411,19 @@
 <script src="includes/libraries/jquery.charts-sparkline.js"></script>
 <script src="includes/libraries/jquery.toast.js"></script>
 
+<!-- libraries -->
+<script src="scripts/jquery-2.1.4.min.js"></script>
+<script src="scripts/angular.js"></script>
+<script src="scripts/angular-ui-router.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/angular-ui/ui-bootstrap.min.js"></script>
+<script src="scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+<script src="scripts/angular-animate.min.js"></script>
+<script src="scripts/angular-file-upload.js"></script>
+
 <!-- Application files-->
 <script src="app/app.js"></script>
 <script src="app/dashboard/dashboardCtrl.js"></script>
+<script src="app/admin/appuser/appuserCtrl.js"></script>
 
 </html>
