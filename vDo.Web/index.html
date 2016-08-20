@@ -1,0 +1,835 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Admin</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="includes/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Menu CSS -->
+    <link href="includes/css/sidebar-nav.min.css" rel="stylesheet" />
+    <!-- toast CSS -->
+    <link href="includes/css/jquery.toast.css" rel="stylesheet" />
+    <!-- morris CSS -->
+    <link href="includes/css/morris.css" rel="stylesheet" />
+    <!-- animation CSS -->
+    <link href="includes/css/animate.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="includes/css/style.css" rel="stylesheet" />
+    <!-- color CSS -->
+    <link href="includes/css/megna.css" rel="stylesheet" />
+
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" style="display: none;">
+        <div class="cssload-speeding-wheel"></div>
+    </div>
+
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top m-b-0">
+            <div class="navbar-header">
+                <a class="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="ti-menu"></i></a>
+                <div class="top-left-part">
+                    <a class="logo" href="#"><b>
+                        <img src="includes/images/eliteadmin-logo.png" alt="home"></b><span class="hidden-xs"><img src="includes/images/eliteadmin-text.png" alt="home"></span></a>
+                </div>
+                <ul class="nav navbar-top-links navbar-left hidden-xs active">
+                    <li><a href="javascript:void(0)" class="open-close hidden-xs waves-effect waves-light"><i class="icon-arrow-left-circle ti-menu"></i></a></li>
+                    <li class="in">
+                        <form role="search" class="app-search hidden-xs">
+                            <input type="text" placeholder="Search..." class="form-control">
+                            <a href="#" class="active"><i class="fa fa-search"></i></a>
+                        </form>
+                    </li>
+                </ul>
+                <ul class="nav navbar-top-links navbar-right pull-right">
+                    <li class="dropdown"><a class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" href="##"><i class="icon-envelope"></i>
+                        <div class="notify"><span class="heartbit"></span><span class="point"></span></div>
+                    </a>
+                        <ul class="dropdown-menu mailbox animated bounceInDown">
+                            <li>
+                                <div class="drop-title">You have 4 new messages</div>
+                            </li>
+                            <li>
+                                <div class="message-center">
+                                    <a href="#">
+                                        <div class="user-img">
+                                            <img src="includes/images/pawandeep.jpg" alt="user" class="img-circle">
+                                            <span class="profile-status online pull-right"></span>
+                                        </div>
+                                        <div class="mail-contnet">
+                                            <h5>Pavan kumar</h5>
+                                            <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span>
+                                        </div>
+                                    </a><a href="##">
+                                        <div class="user-img">
+                                            <img src="includes/images/sonu.jpg" alt="user" class="img-circle">
+                                            <span class="profile-status busy pull-right"></span>
+                                        </div>
+                                        <div class="mail-contnet">
+                                            <h5>Sonu Nigam</h5>
+                                            <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span>
+                                        </div>
+                                    </a><a href="##">
+                                        <div class="user-img">
+                                            <img src="includes/images/arijit.jpg" alt="user" class="img-circle">
+                                            <span class="profile-status away pull-right"></span>
+                                        </div>
+                                        <div class="mail-contnet">
+                                            <h5>Arijit Sinh</h5>
+                                            <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span>
+                                        </div>
+                                    </a><a href="##">
+                                        <div class="user-img">
+                                            <img src="includes/images/pawandeep.jpg" alt="user" class="img-circle">
+                                            <span class="profile-status offline pull-right"></span>
+                                        </div>
+                                        <div class="mail-contnet">
+                                            <h5>Pavan kumar</h5>
+                                            <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li><a class="text-center" href="javascript:void(0);"><strong>See all notifications</strong> <i class="fa fa-angle-right"></i></a></li>
+                        </ul>
+                        <!-- /.dropdown-messages -->
+                    </li>
+                    <!-- /.dropdown -->
+                    <li class="dropdown"><a class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" href="##"><i class="icon-note"></i>
+                        <div class="notify"><span class="heartbit"></span><span class="point"></span></div>
+                    </a>
+                        <ul class="dropdown-menu dropdown-tasks animated slideInUp">
+                            <li><a href="##">
+                                <div>
+                                    <p><strong>Task 1</strong> <span class="pull-right text-muted">40% Complete</span> </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (success)</span> </div>
+                                    </div>
+                                </div>
+                            </a></li>
+                            <li class="divider"></li>
+                            <li><a href="##">
+                                <div>
+                                    <p><strong>Task 2</strong> <span class="pull-right text-muted">20% Complete</span> </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% Complete</span> </div>
+                                    </div>
+                                </div>
+                            </a></li>
+                            <li class="divider"></li>
+                            <li><a href="##">
+                                <div>
+                                    <p><strong>Task 3</strong> <span class="pull-right text-muted">60% Complete</span> </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (warning)</span> </div>
+                                    </div>
+                                </div>
+                            </a></li>
+                            <li class="divider"></li>
+                            <li><a href="##">
+                                <div>
+                                    <p><strong>Task 4</strong> <span class="pull-right text-muted">80% Complete</span> </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="sr-only">80% Complete (danger)</span> </div>
+                                    </div>
+                                </div>
+                            </a></li>
+                            <li class="divider"></li>
+                            <li><a class="text-center" href="##"><strong>See All Tasks</strong> <i class="fa fa-angle-right"></i></a></li>
+                        </ul>
+                        <!-- /.dropdown-tasks -->
+                    </li>
+                    <!-- /.dropdown -->
+                    <li class="dropdown"><a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="##">
+                        <img src="includes/images/varun.jpg" alt="user-img" width="36" class="img-circle"><b class="hidden-xs">Steave</b> </a>
+                        <ul class="dropdown-menu dropdown-user animated flipInY">
+                            <li><a href="##"><i class="ti-user"></i>My Profile</a></li>
+                            <li><a href="##"><i class="ti-wallet"></i>My Balance</a></li>
+                            <li><a href="##"><i class="ti-email"></i>Inbox</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="##"><i class="ti-settings"></i>Account Setting</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="##"><i class="fa fa-power-off"></i>Logout</a></li>
+                        </ul>
+                        <!-- /.dropdown-user -->
+                    </li>
+                    <!-- .Megamenu -->
+                    <li class="mega-dropdown">
+                        <a class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" href="##"><span class="hidden-xs">Mega</span> <i class="icon-options-vertical"></i></a>
+                        <ul class="dropdown-menu mega-dropdown-menu animated bounceInDown">
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Forms Elements</li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-basic.html">Basic Forms</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-layout.html">Form Layout</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-advanced.html">Form Addons</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-material-elements.html">Form Material</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-upload.html">File Upload</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-mask.html">Form Mask</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-validation.html">Form Validation</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Advance Forms</li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-dropzone.html">File Dropzone</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-pickers.html">Form-pickers</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-wizard.html">Form-wizards</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-typehead.html">Typehead</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-xeditable.html">X-editable</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-summernote.html">Summernote</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-bootstrap-wysihtml5.html">Bootstrap wysihtml5</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-tinymce-wysihtml5.html">Tinymce wysihtml5</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Table Example</li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/basic-table.html">Basic Tables</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/data-table.html">Data Table</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/bootstrap-tables.html">Bootstrap Tables</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/responsive-tables.html">Responsive Tables</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/editable-tables.html">Editable Tables</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/foo-tables.html">FooTables</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/jsgrid.html">JsGrid Tables</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header">Charts</li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/flot.html">Flot Charts</a> </li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/morris-chart.html">Morris Chart</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/chart-js.html">Chart-js</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/peity-chart.html">Peity Charts</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/sparkline-chart.html">Sparkline charts</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/extra-charts.html">Extra Charts</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-12 m-t-40 demo-box">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <div class="white-box text-center bg-purple">
+                                            <a href="http://themedesigner.in/demo/eliteadmin-package/eliteadmin-inverse/index.html" target="_blank" class="text-white"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i>
+                                                <br>
+                                                Demo 1</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="white-box text-center bg-success">
+                                            <a href="http://themedesigner.in/demo/eliteadmin-package/eliteadmin/index.html" target="_blank" class="text-white"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i>
+                                                <br>
+                                                Demo 2</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="white-box text-center bg-info">
+                                            <a href="http://themedesigner.in/demo/eliteadmin-package/eliteadmin-ecommerce/index.html" target="_blank" class="text-white"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i>
+                                                <br>
+                                                Demo 3</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="white-box text-center bg-inverse">
+                                            <a href="http://themedesigner.in/demo/eliteadmin-package/eliteadmin-horizontal-navbar/index3.html" target="_blank" class="text-white"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i>
+                                                <br>
+                                                Demo 4</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="white-box text-center bg-warning">
+                                            <a href="http://themedesigner.in/demo/eliteadmin-package/eliteadmin-iconbar/index4.html" target="_blank" class="text-white"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i>
+                                                <br>
+                                                Demo 5</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="white-box text-center bg-danger">
+                                            <a href="https://themeforest.net/item/elite-admin-responsive-web-app-kit-/16750820" target="_blank" class="text-white"><i class="linea-icon linea-ecommerce fa-fw" data-icon="d"></i>
+                                                <br>
+                                                Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- /.Megamenu -->
+                    <li class="right-side-toggle"><a class="waves-effect waves-light" href="javascript:void(0)"><i class="ti-settings"></i></a></li>
+                    <!-- /.dropdown -->
+                </ul>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- /.navbar-top-links -->
+            <!-- /.navbar-static-side -->
+        </nav>
+        <!-- Left navbar-header -->
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse slimscrollsidebar active">
+                <ul class="nav in" id="side-menu">
+                    <li class="sidebar-search hidden-sm hidden-md hidden-lg">
+                        <!-- input-group -->
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div>
+                        <!-- /input-group -->
+                    </li>
+                    <li class="active"><a href="#" class="waves-effect active"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i><span class="hide-menu">Dashboard <span class="fa arrow"></span></span></a>
+                        <ul class="nav nav-second-level collapse in">
+                            <li><a href="#" class="active">Minimalistic</a> </li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/index2.html">Demographical</a> </li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/index3.html">Analitical</a> </li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/index4.html">Simpler</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/inbox.html" class="waves-effect"><i data-icon=")" class="linea-icon linea-basic fa-fw"></i><span class="hide-menu">Apps <span class="fa arrow"></span></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/chat.html">Chat-message</a></li>
+                            <li><a href="javascript:void(0)" class="waves-effect">Inbox<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level collapse">
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/inbox.html">Mail box</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/inbox-detail.html">Inbox detail</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/compose.html">Compose mail</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:void(0)" class="waves-effect">Contacts<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level collapse">
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/contact.html">Contact1</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/contact2.html">Contact2</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/contact-detail.html">Contact Detail</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:void(0)" class="waves-effect">Charts <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level collapse">
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/flot.html">Flot Charts</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/morris-chart.html">Morris Chart</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/chart-js.html">Chart-js</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/peity-chart.html">Peity Charts</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/sparkline-chart.html">Sparkline charts</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/extra-charts.html">Extra Charts</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/map-google.html" class="waves-effect">Google Map</a> </li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/map-vector.html" class="waves-effect">Vector Map</a> </li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/calendar.html" class="waves-effect">Calendar</a></li>
+                            <li><a href="javascript:void(0)" class="waves-effect">Icons <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level collapse">
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/fontawesome.html">Font awesome</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/themifyicon.html">Themify Icons</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/simple-line.html">Simple line Icons</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/linea-icon.html">Linea Icons</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/weather.html">Weather Icons</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="##" class="waves-effect"><i data-icon="/" class="linea-icon linea-basic fa-fw"></i><span class="hide-menu">UI kit<span class="fa arrow"></span></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/panels-wells.html">Panels and Wells</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/buttons.html">Buttons</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/sweatalert.html">Sweat alert</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/typography.html">Typography</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/grid.html">Grid</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/tabs.html">Tabs</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/tabs-stylish.html">Stylis Tabs</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/modals.html">Modals</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/progressbars.html">Progress Bars</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/notification.html">Notifications</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/carousel.html">Carousel</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/timeline.html">Timeline</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/nestable.html">Nesteble</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/range-slider.html">Range Slider</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/bootstrap.html">Bootstrap UI</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/tooltip-stylish.html">Stylis Tooltips</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/forms.html" class="waves-effect"><i data-icon="" class="linea-icon linea-basic fa-fw"></i><span class="hide-menu">Forms<span class="fa arrow"></span></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-basic.html">Basic Forms</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-layout.html">Form Layout</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-advanced.html">Form Addons</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-material-elements.html">Form Material</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-upload.html">File Upload</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-mask.html">Form Mask</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-validation.html">Form Validation</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-dropzone.html">File Dropzone</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-pickers.html">Form-pickers</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-wizard.html">Form-wizards</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-typehead.html">Typehead</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-xeditable.html">X-editable</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-summernote.html">Summernote</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-bootstrap-wysihtml5.html">Bootstrap wysihtml5</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/form-tinymce-wysihtml5.html">Tinymce wysihtml5</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/tables.html" class="waves-effect"><i data-icon="O" class="linea-icon linea-software fa-fw"></i><span class="hide-menu">Tables<span class="fa arrow"></span></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/basic-table.html">Basic Tables</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/data-table.html">Data Table</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/bootstrap-tables.html">Bootstrap Tables</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/responsive-tables.html">Responsive Tables</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/editable-tables.html">Editable Tables</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/foo-tables.html">FooTables</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/jsgrid.html">JsGrid Tables</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="##" class="waves-effect"><i data-icon="" class="linea-icon linea-basic fa-fw"></i><span class="hide-menu">Extra<span class="fa arrow"></span></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/starter-page.html">Starter Page</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/blank.html">Blank Page</a></li>
+                            <li><a href="javascript:void(0)" class="waves-effect">Email Templates<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level collapse">
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/email-templates/basic.html">Basic</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/email-templates/alert.html">Alert</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/email-templates/billing.html">Billing</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/email-templates/password-reset.html">Reset Pwd</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/lightbox.html">Lightbox Popup</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/treeview.html">Treeview</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/search-result.html">Search Result</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/utility-classes.html">Utility Classes</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/custom-scroll.html">Custom Scrolls</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/login.html">Login Page</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/animation.html">Animations</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/profile.html">Profile</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/invoice.html">Invoice</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/faq.html">FAQ</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/gallery.html">Gallery</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/pricing.html">Pricing</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/register.html">Register</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/recoverpw.html">Recover Password</a></li>
+                            <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/lock-screen.html">Lock Screen</a></li>
+                            <li><a href="javascript:void(0)" class="waves-effect">Error Pages<span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level collapse">
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/400.html">Error 400</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/403.html">Error 403</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/404.html">Error 404</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/500.html">Error 500</a></li>
+                                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/503.html">Error 503</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/widgets.html" class="waves-effect"><i data-icon="P" class="linea-icon linea-basic fa-fw"></i><span class="hide-menu">Widgets</span></a> </li>
+                    <li><a href="javascript:void(0)" class="waves-effect"><i data-icon="F" class="linea-icon linea-software fa-fw"></i><span class="hide-menu">Multi level<span class="fa arrow"></span></span></a>
+                        <ul class="nav nav-second-level collapse">
+                            <li><a href="javascript:void(0)">Second Level Item</a> </li>
+                            <li><a href="javascript:void(0)">Second Level Item</a> </li>
+                            <li><a href="javascript:void(0)" class="waves-effect">Third Level <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level collapse">
+                                    <li><a href="javascript:void(0)">Third Level Item</a> </li>
+                                    <li><a href="javascript:void(0)">Third Level Item</a> </li>
+                                    <li><a href="javascript:void(0)">Third Level Item</a> </li>
+                                    <li><a href="javascript:void(0)">Third Level Item</a> </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="http://eliteadmin.themedesigner.in/demos/eliteadmin-horizontal-nav-fullwidth/login.html" class="waves-effect"><i data-icon="" class="linea-icon linea-aerrow fa-fw"></i><span class="hide-menu">Log out</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Left navbar-header end -->
+
+        <div id="page-wrapper" style="min-height: 212px;">
+    <div class="container-fluid">
+      <div class="row bg-title">
+        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+          <h4 class="page-title">Simpler Dashboard</h4>
+        </div>
+        <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+          <ol class="breadcrumb">
+            <li><a href="#">Dashboard</a></li>
+            <li class="active">Simpler Dashboard</li>
+          </ol>
+        </div>
+        <!-- /.col-lg-12 -->
+      </div>
+      <!-- .row -->
+      <div class="row">
+        <div class="col-lg-3 col-sm-3 col-xs-12">
+          <div class="white-box analytics-info">
+            <h3 class="box-title">Total Visit</h3>
+            <ul class="list-inline two-part">
+              <li>
+                <div id="sparklinedash"><canvas width="67" height="30" style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas></div>
+              </li>
+              <li class="text-right"><i class="ti-arrow-up text-success"></i> <span class="counter text-success">8659</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-12">
+          <div class="white-box analytics-info">
+            <h3 class="box-title">Total Page Views</h3>
+            <ul class="list-inline two-part">
+              <li>
+                <div id="sparklinedash2"><canvas width="67" height="30" style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas></div>
+              </li>
+              <li class="text-right"><i class="ti-arrow-up text-purple"></i> <span class="counter text-purple">7469</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-12">
+          <div class="white-box analytics-info">
+            <h3 class="box-title">Unique Visitor</h3>
+            <ul class="list-inline two-part">
+              <li>
+                <div id="sparklinedash3"><canvas width="67" height="30" style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas></div>
+              </li>
+              <li class="text-right"><i class="ti-arrow-up text-info"></i> <span class="counter text-info">6011</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-12">
+          <div class="white-box analytics-info">
+            <h3 class="box-title">Bounce Rate</h3>
+            <ul class="list-inline two-part">
+              <li>
+                <div id="sparklinedash4"><canvas width="67" height="30" style="display: inline-block; width: 67px; height: 30px; vertical-align: top;"></canvas></div>
+              </li>
+              <li class="text-right"><i class="ti-arrow-down text-danger"></i> <span class="text-danger">18%</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/.row -->
+      <!-- .row -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="white-box">
+            <div class="row">
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <h3 class="box-title">Sales in 2016</h3>
+                <p class="m-t-30">Lorem ipsum dolor sit amet, ectetur adipiscing elit. viverra tellus. ipsumdolorsitda amet, ectetur adipiscing elit.</p>
+                <p><br>
+                  Ectetur adipiscing elit. viverra tellus.ipsum dolor sit amet, dag adg ecteturadipiscingda elitdglj. vadghiverra tellus.</p>
+              </div>
+              <div class="col-md-8 col-sm-6 col-xs-12">
+                <div id="morris-area-chart" style="height: 250px; position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><svg height="250" version="1.1" width="983" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative; left: -0.328125px;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.2</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><text x="50.5" y="211" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">0</tspan></text><path fill="none" stroke="#e0e0e0" d="M63,211H958" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="50.5" y="164.5" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">5,000</tspan></text><path fill="none" stroke="#e0e0e0" d="M63,164.5H958" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="50.5" y="118.00000000000001" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.000000000000014" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">10,000</tspan></text><path fill="none" stroke="#e0e0e0" d="M63,118.00000000000001H958" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="50.5" y="71.5" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">15,000</tspan></text><path fill="none" stroke="#e0e0e0" d="M63,71.5H958" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="50.5" y="25.00000000000003" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.000000000000028" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">20,000</tspan></text><path fill="none" stroke="#e0e0e0" d="M63,25.00000000000003H958" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="958" y="223.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2019</tspan></text><text x="858.6160632795862" y="223.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2018</tspan></text><text x="759.2321265591725" y="223.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2017</tspan></text><text x="659.5759050806206" y="223.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2016</tspan></text><text x="560.1919683602068" y="223.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2015</tspan></text><text x="460.8080316397931" y="223.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2014</tspan></text><text x="361.42409491937934" y="223.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2013</tspan></text><text x="261.7678734408275" y="223.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2012</tspan></text><text x="162.38393672041374" y="223.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2011</tspan></text><text x="63" y="223.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2010</tspan></text><path fill="#dbeee8" stroke="none" d="M63,210.907C87.84598418010344,207.054475,137.5379525403103,201.19547500000002,162.38393672041374,195.4969C187.2299209005172,189.798325,236.92188926072404,167.75631039671683,261.7678734408275,165.3184C286.6819288104655,162.87381039671683,336.51003954974135,178.17634336525308,361.42409491937934,175.9669C386.2700790994828,173.76349336525308,435.96204745968964,149.87923750000002,460.8080316397931,147.667C485.65401581989653,145.45476250000002,535.3459841801034,155.955625,560.1919683602068,158.269C585.0379525403102,160.582375,634.7299209005172,177.09003402872779,659.5759050806206,166.174C684.4899604502585,155.22805902872778,734.3180711895345,74.62418296853625,759.2321265591725,70.8211C784.0781107392759,67.02840796853626,833.7700790994828,118.28016250000002,858.6160632795862,135.79090000000002C883.4620474596896,153.30163750000003,933.1540158198966,192.12797500000002,958,210.907L958,211L63,211Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="none" stroke="#a5d9c7" d="M63,210.907C87.84598418010344,207.054475,137.5379525403103,201.19547500000002,162.38393672041374,195.4969C187.2299209005172,189.798325,236.92188926072404,167.75631039671683,261.7678734408275,165.3184C286.6819288104655,162.87381039671683,336.51003954974135,178.17634336525308,361.42409491937934,175.9669C386.2700790994828,173.76349336525308,435.96204745968964,149.87923750000002,460.8080316397931,147.667C485.65401581989653,145.45476250000002,535.3459841801034,155.955625,560.1919683602068,158.269C585.0379525403102,160.582375,634.7299209005172,177.09003402872779,659.5759050806206,166.174C684.4899604502585,155.22805902872778,734.3180711895345,74.62418296853625,759.2321265591725,70.8211C784.0781107392759,67.02840796853626,833.7700790994828,118.28016250000002,858.6160632795862,135.79090000000002C883.4620474596896,153.30163750000003,933.1540158198966,192.12797500000002,958,210.907" stroke-width="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="63" cy="210.907" r="0" fill="#a5d9c7" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="162.38393672041374" cy="195.4969" r="0" fill="#a5d9c7" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="261.7678734408275" cy="165.3184" r="0" fill="#a5d9c7" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="361.42409491937934" cy="175.9669" r="0" fill="#a5d9c7" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="460.8080316397931" cy="147.667" r="0" fill="#a5d9c7" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="560.1919683602068" cy="158.269" r="0" fill="#a5d9c7" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="659.5759050806206" cy="166.174" r="0" fill="#a5d9c7" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="759.2321265591725" cy="70.8211" r="0" fill="#a5d9c7" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="858.6160632795862" cy="135.79090000000002" r="0" fill="#a5d9c7" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="958" cy="210.907" r="0" fill="#a5d9c7" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle></svg><div class="morris-hover morris-default-style" style="left: 308.424px; top: 97px; display: none;"><div class="morris-hover-row-label">2013</div><div class="morris-hover-point" style="color: #a5d9c7">
+  Site A:
+  3,767
+</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.row -->
+      <!-- .row -->
+      <div class="row">
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <div class="white-box">
+            <h3 class="box-title">Weather</h3>
+            <div class="weather-box">
+              <div class="weather-top">
+                <h2 class="pull-left">Monday <br>
+                  <small>7th May 2016</small></h2>
+                <div class="today_crnt pull-right">
+                  <canvas class="sleet" width="44" height="44"></canvas>
+                  <span>32<sup>°F</sup></span> </div>
+              </div>
+              <div class="weather-info">
+                <h5 class="font-bold">Weather info</h5>
+                <div class="row">
+                  <div class="col-xs-6 p-r-10">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <p class="pull-left">Wind</p>
+                        <p class="pull-right font-bold">16km/h</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <p class="pull-left">Sunrise</p>
+                        <p class="pull-right font-bold">05:20</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <p class="pull-left">Humanfeel</p>
+                        <p class="pull-right font-bold">32 <sup>°F</sup></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-6 p-l-10">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <p class="pull-left">Sunset</p>
+                        <p class="pull-right font-bold">21:05</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <p class="pull-left">Pressure </p>
+                        <p class="pull-right font-bold">22 in</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="weather-time">
+                <ul class="list-unstyled weather-days row">
+                  <li class="col-xs-4 col-sm-2"><span>Tue</span>
+                    <canvas class="sleet" width="30" height="30"></canvas>
+                    <span>32<sup>°F</sup></span></li>
+                  <li class="col-xs-4 col-sm-2"><span>Wed</span>
+                    <canvas class="clear-day" width="30" height="30"></canvas>
+                    <span>34<sup>°F</sup></span></li>
+                  <li class="col-xs-4 col-sm-2"><span>Thu</span>
+                    <canvas class="partly-cloudy-day" width="30" height="30"></canvas>
+                    <span>35<sup>°F</sup></span></li>
+                  <li class="col-xs-4 col-sm-2"><span>Fri</span>
+                    <canvas class="cloudy" width="30" height="30"></canvas>
+                    <span>34<sup>°F</sup></span></li>
+                  <li class="col-xs-4 col-sm-2"><span>Sat</span>
+                    <canvas class="snow" width="30" height="30"></canvas>
+                    <span>30<sup>°F</sup></span></li>
+                  <li class="col-xs-4 col-sm-2"><span>Sun</span>
+                    <canvas class="wind" width="30" height="30"></canvas>
+                    <span>26<sup>°F</sup></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <div class="white-box">
+            <h3 class="box-title">User Activity</h3>
+            <div class="steamline">
+              <div class="sl-item">
+                <div class="sl-left"> <img class="img-circle" alt="user" src="../plugins/images/users/genu.jpg"> </div>
+                <div class="sl-right">
+                  <div><a href="#">Gohn Doe</a> <span class="sl-date">5 minutes ago</span></div>
+                  <p>Contrary to popular belief</p>
+                </div>
+              </div>
+              <div class="sl-item">
+                <div class="sl-left"> <img class="img-circle" alt="user" src="../plugins/images/users/ritesh.jpg"> </div>
+                <div class="sl-right">
+                  <div><a href="#">Gohn Doe</a> <span class="sl-date">5 minutes ago</span></div>
+                  <p>Lorem Ipsum is simply dummy</p>
+                </div>
+              </div>
+              <div class="sl-item">
+                <div class="sl-left"> <img class="img-circle" alt="user" src="../plugins/images/users/sonu.jpg"> </div>
+                <div class="sl-right">
+                  <div><a href="#">Gohn Doe</a> <span class="sl-date">5 minutes ago</span></div>
+                  <p>The standard chunk of ipsum </p>
+                </div>
+              </div>
+              <div class="sl-item">
+                <div class="sl-left"> <img class="img-circle" alt="user" src="../plugins/images/users/ritesh.jpg"> </div>
+                <div class="sl-right">
+                  <div><a href="#">Gohn Doe</a> <span class="sl-date">5 minutes ago</span></div>
+                  <p>Contrary to popular belief</p>
+                </div>
+              </div>
+              <div class="sl-item">
+                <div class="sl-left"> <img class="img-circle" alt="user" src="../plugins/images/users/govinda.jpg"> </div>
+                <div class="sl-right">
+                  <div><a href="#">Gohn Doe</a> <span class="sl-date">5 minutes ago</span></div>
+                  <p>The generated lorem ipsum</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <div class="white-box">
+            <h3 class="box-title">Feeds</h3>
+            <ul class="feeds">
+              <li>
+                <div class="bg-info"><i class="fa fa-bell-o text-white"></i></div>
+                You have 4 pending tasks. <span class="text-muted">Just Now</span></li>
+              <li>
+                <div class="bg-success"><i class="ti-server text-white"></i></div>
+                Server #1 overloaded.<span class="text-muted">2 Hours ago</span></li>
+              <li>
+                <div class="bg-warning"><i class="ti-shopping-cart text-white"></i></div>
+                New order received.<span class="text-muted">31 May</span></li>
+              <li>
+                <div class="bg-danger"><i class="ti-user text-white"></i></div>
+                New user registered.<span class="text-muted">30 May</span></li>
+              <li>
+                <div class="bg-inverse"><i class="fa fa-bell-o text-white"></i></div>
+                New Version just arrived. <span class="text-muted">27 May</span></li>
+              <li>
+                <div class="bg-purple"><i class="ti-settings text-white"></i></div>
+                You have 4 pending tasks. <span class="text-muted">27 May</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/.row -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="white-box">
+            <h3 class="box-title">Order Status</h3>
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Invoice</th>
+                    <th>User</th>
+                    <th>Order date</th>
+                    <th>Amount</th>
+                    <th class="text-center">Status</th>
+                    <th class="text-center">Tracking Number</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a href="javascript:void(0)" class="btn-link"> Order #53431</a></td>
+                    <td>Steve N. Horton</td>
+                    <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 22, 2014</span></td>
+                    <td>$45.00</td>
+                    <td class="text-center"><div class="label label-table label-success">Paid</div></td>
+                    <td class="text-center">-</td>
+                  </tr>
+                  <tr>
+                    <td><a href="javascript:void(0)" class="btn-link"> Order #53432</a></td>
+                    <td>Charles S Boyle</td>
+                    <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 24, 2014</span></td>
+                    <td>$245.30</td>
+                    <td class="text-center"><div class="label label-table label-info">Shipped</div></td>
+                    <td class="text-center"><i class="fa fa-plane"></i> CGX0089734531</td>
+                  </tr>
+                  <tr>
+                    <td><a href="javascript:void(0)" class="btn-link"> Order #53433</a></td>
+                    <td>Lucy Doe</td>
+                    <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 24, 2014</span></td>
+                    <td>$38.00</td>
+                    <td class="text-center"><div class="label label-table label-info">Shipped</div></td>
+                    <td class="text-center"><i class="fa fa-plane"></i> CGX0089934571</td>
+                  </tr>
+                  <tr>
+                    <td><a href="javascript:void(0)" class="btn-link"> Order #53434</a></td>
+                    <td>Teresa L. Doe</td>
+                    <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 15, 2014</span></td>
+                    <td>$77.99</td>
+                    <td class="text-center"><div class="label label-table label-info">Shipped</div></td>
+                    <td class="text-center"><i class="fa fa-plane"></i> CGX0089734574</td>
+                  </tr>
+                  <tr>
+                    <td><a href="javascript:void(0)" class="btn-link"> Order #53435</a></td>
+                    <td>Teresa L. Doe</td>
+                    <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 12, 2014</span></td>
+                    <td>$18.00</td>
+                    <td class="text-center"><div class="label label-table label-success">Paid</div></td>
+                    <td class="text-center">-</td>
+                  </tr>
+                  <tr>
+                    <td><a href="javascript:void(0)" class="btn-link">Order #53437</a></td>
+                    <td>Charles S Boyle</td>
+                    <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 17, 2014</span></td>
+                    <td>$658.00</td>
+                    <td class="text-center"><div class="label label-table label-danger">Refunded</div></td>
+                    <td class="text-center">-</td>
+                  </tr>
+                  <tr>
+                    <td><a href="javascript:void(0)" class="btn-link">Order #536584</a></td>
+                    <td>Scott S. Calabrese</td>
+                    <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 19, 2014</span></td>
+                    <td>$45.58</td>
+                    <td class="text-center"><div class="label label-table label-warning">Unpaid</div></td>
+                    <td class="text-center">-</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .right-sidebar -->
+      <div class="right-sidebar">
+        <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 100%;"><div class="slimscrollright" style="overflow: hidden; width: auto; height: 100%;">
+          <div class="rpanel-title"> Service Panel <span><i class="ti-close right-side-toggle"></i></span> </div>
+          <div class="r-panel-body">
+            <ul>
+              <li><b>Layout Options</b></li>
+              
+              <li>
+                <div class="checkbox checkbox-info">
+                  <input id="checkbox1" type="checkbox" class="fxhdr">
+                  <label for="checkbox1"> Fix Header </label>
+                </div>
+              </li>
+            </ul>
+            <ul id="themecolors" class="m-t-20">
+              <li><b>With Light sidebar</b></li>
+              <li><a href="javascript:void(0)" theme="default" class="default-theme">1</a></li>
+              <li><a href="javascript:void(0)" theme="green" class="green-theme">2</a></li>
+              <li><a href="javascript:void(0)" theme="gray" class="yellow-theme">3</a></li>
+              <li><a href="javascript:void(0)" theme="blue" class="blue-theme">4</a></li>
+              <li><a href="javascript:void(0)" theme="purple" class="purple-theme">5</a></li>
+              <li><a href="javascript:void(0)" theme="megna" class="megna-theme working">6</a></li>
+              <li><b>With Dark sidebar</b></li>
+              <br>
+              <li><a href="javascript:void(0)" theme="default-dark" class="default-dark-theme">7</a></li>
+              <li><a href="javascript:void(0)" theme="green-dark" class="green-dark-theme">8</a></li>
+              <li><a href="javascript:void(0)" theme="gray-dark" class="yellow-dark-theme">9</a></li>
+
+              <li><a href="javascript:void(0)" theme="blue-dark" class="blue-dark-theme">10</a></li>
+              <li><a href="javascript:void(0)" theme="purple-dark" class="purple-dark-theme">11</a></li>
+              <li><a href="javascript:void(0)" theme="megna-dark" class="megna-dark-theme">12</a></li>
+            </ul>
+            <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 96%;"><ul class="m-t-20 chatonline" style="overflow: hidden; width: auto; height: 96%;">
+              <li><b>Chat option</b></li>
+              <li><a href="javascript:void(0)"><img src="../plugins/images/users/varun.jpg" alt="user-img" class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a></li>
+              <li><a href="javascript:void(0)"><img src="../plugins/images/users/genu.jpg" alt="user-img" class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a></li>
+              <li><a href="javascript:void(0)"><img src="../plugins/images/users/ritesh.jpg" alt="user-img" class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a></li>
+              <li><a href="javascript:void(0)"><img src="../plugins/images/users/arijit.jpg" alt="user-img" class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a></li>
+              <li><a href="javascript:void(0)"><img src="../plugins/images/users/govinda.jpg" alt="user-img" class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a></li>
+              <li><a href="javascript:void(0)"><img src="../plugins/images/users/hritik.jpg" alt="user-img" class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a></li>
+              <li><a href="javascript:void(0)"><img src="../plugins/images/users/john.jpg" alt="user-img" class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a></li>
+              <li><a href="javascript:void(0)"><img src="../plugins/images/users/pawandeep.jpg" alt="user-img" class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a></li>
+            </ul><div class="slimScrollBar" style="width: 0px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px; background: rgb(220, 220, 220);"></div><div class="slimScrollRail" style="width: 0px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; opacity: 0.2; z-index: 90; right: 1px; background: rgb(51, 51, 51);"></div></div>
+          </div>
+        </div><div class="slimScrollBar" style="width: 5px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px; background: rgb(220, 220, 220);"></div><div class="slimScrollRail" style="width: 5px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; opacity: 0.2; z-index: 90; right: 1px; background: rgb(51, 51, 51);"></div></div>
+      </div>
+      <!-- /.right-sidebar -->
+    </div>
+    <!-- /.container-fluid -->
+    <footer class="footer text-center"> 2016 © Elite Admin brought to you by themedesigner.in </footer>
+  </div>
+
+
+
+    </div>
+
+</body>
+
+
+<!--<script src="includes/libraries/analytics.js"></script>-->
+<!-- jQuery -->
+<script src="includes/libraries/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="includes/libraries/bootstrap.min.js"></script>
+<!-- Menu Plugin JavaScript -->
+<script src="includes/libraries/sidebar-nav.min.js"></script>
+<!--slimscroll JavaScript -->
+<script src="includes/libraries/jquery.slimscroll.js"></script>
+<!--Wave Effects -->
+<script src="includes/libraries/waves.js"></script>
+<!--Counter js -->
+<script src="includes/libraries/jquery.waypoints.js"></script>
+<script src="includes/libraries/jquery.counterup.min.js"></script>
+<!--Morris JavaScript -->
+<!--    <script src="includes/libraries/raphael-min.js"></script>-->
+<!--    <script src="includes/libraries/morris.js"></script>-->
+<!-- Custom Theme JavaScript -->
+<script src="includes/scripts/custom.js"></script>
+<script src="includes/libraries/dashboard1.js"></script>
+<!-- Sparkline chart JavaScript -->
+<script src="includes/libraries/jquery.sparkline.min.js"></script>
+<script src="includes/libraries/jquery.charts-sparkline.js"></script>
+<script src="includes/libraries/jquery.toast.js"></script>
+
+</html>
