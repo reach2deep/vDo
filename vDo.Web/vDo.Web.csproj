@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\admin\appuser\appuser.html" />
     <Content Include="includes\css\animate.css" />
     <Content Include="includes\css\bootstrap.min.css" />
     <Content Include="includes\css\jquery.toast.css" />
