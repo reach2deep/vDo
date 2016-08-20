@@ -58,6 +58,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\admin\appuser\appuser.html" />
+    <Content Include="app\app.js" />
+    <Content Include="app\dashboard\dashboard - Copy.html" />
+    <Content Include="app\dashboard\dashboard.html" />
+    <Content Include="app\dashboard\dashboardCtrl.js" />
     <Content Include="includes\css\animate.css" />
     <Content Include="includes\css\bootstrap.min.css" />
     <Content Include="includes\css\jquery.toast.css" />
@@ -467,6 +471,11 @@
     <Content Include="includes\libraries\waves.js" />
     <Content Include="index.html" />
     <Content Include="login.html" />
+    <Content Include="scripts\angular-mocks.js" />
+    <None Include="scripts\angular.intellisense.js" />
+    <Content Include="scripts\angular.js" />
+    <Content Include="scripts\angular.min.js" />
+    <None Include="scripts\_references.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -616,6 +625,8 @@
     <Content Include="includes\libraries\icons\linea-icons\stylesheets\mixins\_appearance.scss" />
     <Content Include="includes\libraries\icons\linea-icons\stylesheets\mixins\_font-face.scss" />
     <Content Include="includes\libraries\icons\linea-icons\stylesheets\_linea.scss" />
+    <Content Include="scripts\angular.min.js.map" />
+    <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
