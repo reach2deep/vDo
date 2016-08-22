@@ -68,6 +68,7 @@
     <Content Include="app\dashboard\dashboard - Copy.html" />
     <Content Include="app\dashboard\dashboard.html" />
     <Content Include="app\dashboard\dashboardCtrl.js" />
+    <Content Include="app\service\appuserService.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
