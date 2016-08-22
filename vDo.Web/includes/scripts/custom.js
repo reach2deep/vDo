@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(function() {
         $(".preloader").fadeOut();
-        $('#side-menu').metisMenu();
+       // $('#side-menu').metisMenu();
     });
 
     // Theme settings

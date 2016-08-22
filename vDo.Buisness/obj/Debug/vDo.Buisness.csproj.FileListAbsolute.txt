@@ -10,3 +10,15 @@ D:\Deep\vDo\vDo.Buisness\bin\Debug\vDo.Entity.pdb
 D:\Deep\vDo\vDo.Buisness\bin\Debug\EntityFramework.xml
 D:\Deep\vDo\vDo.Buisness\obj\Debug\vDo.Buisness.dll
 D:\Deep\vDo\vDo.Buisness\obj\Debug\vDo.Buisness.pdb
+F:\Development\vDo\vDo.Buisness\bin\Debug\vDo.Buisness.dll.config
+F:\Development\vDo\vDo.Buisness\bin\Debug\vDo.Buisness.dll
+F:\Development\vDo\vDo.Buisness\bin\Debug\vDo.Buisness.pdb
+F:\Development\vDo\vDo.Buisness\bin\Debug\EntityFramework.dll
+F:\Development\vDo\vDo.Buisness\bin\Debug\vDo.Data.dll
+F:\Development\vDo\vDo.Buisness\bin\Debug\vDo.Entity.dll
+F:\Development\vDo\vDo.Buisness\bin\Debug\vDo.Data.pdb
+F:\Development\vDo\vDo.Buisness\bin\Debug\vDo.Entity.pdb
+F:\Development\vDo\vDo.Buisness\bin\Debug\EntityFramework.xml
+F:\Development\vDo\vDo.Buisness\obj\Debug\vDo.Buisness.csprojResolveAssemblyReference.cache
+F:\Development\vDo\vDo.Buisness\obj\Debug\vDo.Buisness.dll
+F:\Development\vDo\vDo.Buisness\obj\Debug\vDo.Buisness.pdb

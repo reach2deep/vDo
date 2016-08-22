@@ -1,17 +1,5 @@
-﻿var app = angular.module("MyApp")
-app.controller("appuserCtrl", ['$scope', '$state', '$stateParams', '$modal', '$log', 'AppUserService', function ($scope, $state, $stateParams, $modal, $log, AppUserService) {
-           $scope.pageTitle = 'App Users';
-           $scope.message = 'Am the app user page';
-
-           $scope.userlist = null;
-           $scope.userlist = gerUserlist();
-    
-
-           function gerUserlist() {
-               AppUserService.getAllUsers()
-               .then(function (data) {
-                   $scope.userlist = AppUserService.appusers;
-               });
-           };
-
-}]);
+﻿angular.module("MyApp")
+       .controller("appuserCtrl", ['$scope', function ($scope) {
+           $scope.pageTitle = 'Home';
+           $scope.message = 'This is the message from controller to view on page';
+       }]);

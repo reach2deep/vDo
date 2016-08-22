@@ -139,3 +139,9 @@ D:\Deep\vDo\vDo.Server\bin\vDo.Data.dll
 D:\Deep\vDo\vDo.Server\bin\vDo.Buisness.pdb
 D:\Deep\vDo\vDo.Server\bin\vDo.Entity.pdb
 D:\Deep\vDo\vDo.Server\bin\vDo.Data.pdb
+F:\Development\vDo\vDo.Server\bin\vDo.Buisness.dll
+F:\Development\vDo\vDo.Server\bin\vDo.Entity.dll
+F:\Development\vDo\vDo.Server\bin\vDo.Data.dll
+F:\Development\vDo\vDo.Server\bin\vDo.Buisness.pdb
+F:\Development\vDo\vDo.Server\bin\vDo.Entity.pdb
+F:\Development\vDo\vDo.Server\bin\vDo.Data.pdb

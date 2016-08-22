@@ -8,6 +8,7 @@ F:\Development\vDo\vDo.Web\bin\vDo.Web.dll
 F:\Development\vDo\vDo.Web\bin\vDo.Web.pdb
 F:\Development\vDo\vDo.Web\obj\Debug\vDo.Web.dll
 F:\Development\vDo\vDo.Web\obj\Debug\vDo.Web.pdb
-F:\Development\vDo\vDo.Web\obj\Debug\vDo.Web.csprojResolveAssemblyReference.cache
 D:\Deep\vDo\vDo.Web\bin\EntityFramework.dll
 D:\Deep\vDo\vDo.Web\bin\EntityFramework.xml
+F:\Development\vDo\vDo.Web\bin\EntityFramework.dll
+F:\Development\vDo\vDo.Web\bin\EntityFramework.xml

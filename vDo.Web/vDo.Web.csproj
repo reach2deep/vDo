@@ -65,7 +65,6 @@
     <Content Include="app\admin\appuser\appuser.html" />
     <Content Include="app\admin\appuser\appuserCtrl.js" />
     <Content Include="app\app.js" />
-    <Content Include="app\dashboard\dashboard - Copy.html" />
     <Content Include="app\dashboard\dashboard.html" />
     <Content Include="app\dashboard\dashboardCtrl.js" />
     <Content Include="app\service\appuserService.js" />
@@ -1280,12 +1279,16 @@
     <Content Include="scripts\i18n\angular-locale_zh.js" />
     <Content Include="scripts\i18n\angular-locale_zu-za.js" />
     <Content Include="scripts\i18n\angular-locale_zu.js" />
-    <None Include="scripts\jquery-1.9.0.intellisense.js" />
-    <Content Include="scripts\jquery-1.9.0.js" />
-    <Content Include="scripts\jquery-1.9.0.min.js" />
+    <Content Include="scripts\jquery-2.1.4.min.js" />
+    <None Include="scripts\jquery-3.1.0.intellisense.js" />
+    <Content Include="scripts\jquery-3.1.0.js" />
+    <Content Include="scripts\jquery-3.1.0.min.js" />
+    <Content Include="scripts\jquery-3.1.0.slim.js" />
+    <Content Include="scripts\jquery-3.1.0.slim.min.js" />
     <Content Include="scripts\version.json" />
     <Content Include="scripts\errors.json" />
-    <Content Include="scripts\jquery-1.9.0.min.map" />
+    <Content Include="scripts\jquery-3.1.0.slim.min.map" />
+    <Content Include="scripts\jquery-3.1.0.min.map" />
     <None Include="scripts\_references.js" />
     <Content Include="Web.config" />
   </ItemGroup>
