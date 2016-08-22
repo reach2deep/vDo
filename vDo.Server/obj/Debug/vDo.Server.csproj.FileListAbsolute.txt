@@ -133,3 +133,9 @@ F:\Development\vDo\vDo.Server\bin\zh-Hant\System.Spatial.resources.dll
 F:\Development\vDo\vDo.Server\obj\Debug\vDo.Server.csprojResolveAssemblyReference.cache
 F:\Development\vDo\vDo.Server\obj\Debug\vDo.Server.dll
 F:\Development\vDo\vDo.Server\obj\Debug\vDo.Server.pdb
+D:\Deep\vDo\vDo.Server\bin\vDo.Buisness.dll
+D:\Deep\vDo\vDo.Server\bin\vDo.Entity.dll
+D:\Deep\vDo\vDo.Server\bin\vDo.Data.dll
+D:\Deep\vDo\vDo.Server\bin\vDo.Buisness.pdb
+D:\Deep\vDo\vDo.Server\bin\vDo.Entity.pdb
+D:\Deep\vDo\vDo.Server\bin\vDo.Data.pdb

@@ -1,0 +1,8 @@
+D:\Deep\vDo\vDo.Data\obj\Debug\vDo.Data.csprojResolveAssemblyReference.cache
+D:\Deep\vDo\vDo.Data\bin\Debug\vDo.Data.dll.config
+D:\Deep\vDo\vDo.Data\bin\Debug\vDo.Data.dll
+D:\Deep\vDo\vDo.Data\bin\Debug\vDo.Data.pdb
+D:\Deep\vDo\vDo.Data\bin\Debug\EntityFramework.dll
+D:\Deep\vDo\vDo.Data\bin\Debug\EntityFramework.xml
+D:\Deep\vDo\vDo.Data\obj\Debug\vDo.Data.dll
+D:\Deep\vDo\vDo.Data\obj\Debug\vDo.Data.pdb
