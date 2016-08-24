@@ -7,3 +7,4 @@ F:\Development\vDo\vDo.Entity\bin\Debug\vDo.Entity.dll
 F:\Development\vDo\vDo.Entity\bin\Debug\vDo.Entity.pdb
 F:\Development\vDo\vDo.Entity\obj\Debug\vDo.Entity.dll
 F:\Development\vDo\vDo.Entity\obj\Debug\vDo.Entity.pdb
+F:\Development\vDo\vDo.Entity\obj\Debug\vDo.Entity.csprojResolveAssemblyReference.cache

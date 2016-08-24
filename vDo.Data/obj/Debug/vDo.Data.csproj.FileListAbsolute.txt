@@ -13,3 +13,4 @@ F:\Development\vDo\vDo.Data\bin\Debug\EntityFramework.dll
 F:\Development\vDo\vDo.Data\bin\Debug\EntityFramework.xml
 F:\Development\vDo\vDo.Data\obj\Debug\vDo.Data.dll
 F:\Development\vDo\vDo.Data\obj\Debug\vDo.Data.pdb
+F:\Development\vDo\vDo.Data\obj\Debug\vDo.Data.csprojResolveAssemblyReference.cache
