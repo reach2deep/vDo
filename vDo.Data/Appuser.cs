@@ -17,5 +17,7 @@ namespace vDo.Data
         public long Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
+        public string SessionId { get; set; }
+        public Nullable<System.DateTime> ExpiredAt { get; set; }
     }
 }

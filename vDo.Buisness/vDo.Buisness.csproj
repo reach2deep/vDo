@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Appuser\AppuserBroker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\AuthenticationBroker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
