@@ -18,7 +18,7 @@ namespace vDo.Buisness.Security
 
         public string AuthenticateMe(string uName, string pwd)
         {
-            var user = _entities.Appusers.Single(x => x.Username == uName && x.Password == pwd);
+            var user = _entities.Appusers.SingleOrDefault(x => x.Username == uName && x.Password == pwd);
             if (user != null)
             {
                 if (user.SessionId != null && user.ExpiredAt > DateTime.Now)
