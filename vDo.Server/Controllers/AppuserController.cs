@@ -5,10 +5,12 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using vDo.Buisness.Appuser;
+using vDo.Buisness.Security;
 using vDo.Entity.Admin.Appuser;
 
 namespace vDo.Server.Controllers
 {
+    [CustomAuthorize]
     public class AppuserController : ApiController
     {
         // GET api/appuser

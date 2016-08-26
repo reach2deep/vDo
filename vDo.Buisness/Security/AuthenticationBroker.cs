@@ -16,6 +16,16 @@ namespace vDo.Buisness.Security
             _entities = new Entities();
         }
 
+        public bool ValidateToken(string token)
+        {
+            var result = _entities.Appusers.SingleOrDefault(x => x.SessionId == token);
+            if (result != null && result.ExpiredAt > DateTime.Now)
+            {
+                return true;
+            }
+            return false;
+        }
+
         public string AuthenticateMe(string uName, string pwd)
         {
             var user = _entities.Appusers.SingleOrDefault(x => x.Username == uName && x.Password == pwd);
